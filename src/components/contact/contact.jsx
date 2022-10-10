@@ -12,19 +12,19 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "replace with service id",
-        "replace with template id",
+        'replace with service id',
+        'replace with template id',
         form.current,
-        "replace with user id"
+        'replace with user id',
       )
       .then(
         (result) => {
           console.log(result.text);
-          console.log("message sent");
+          console.log('message sent');
         },
         (error) => {
           console.log(error.text);
-        }
+        },
       );
   };
 
@@ -32,13 +32,13 @@ const Contact = () => {
     <StyledContactForm>
       <h1>Contact Us</h1>
       <form ref={form} onSubmit={sendEmail}>
-        <label>Name</label>
+        {/* <label>Name</label> */}
         <input type="text" name="user_name" />
-        <label>Email</label>
+        {/* <label>Email</label> */}
         <input type="email" name="user_email" />
-        <label>Subject</label>
+        {/* <label>Subject</label> */}
         <input type="subject" name="user_subject" />
-        <label>Message</label>
+        {/* <label>Message</label> */}
         <textarea name="message" />
         <input type="submit" value="Send" />
       </form>

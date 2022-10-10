@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { Footer, Possibility, Features, WhatGPT3, Header } from './containers';
-import { CTA, Navbar } from './components';
+import { Contact, CTA, Navbar } from './components';
 // import { CTA, Brand, Navbar } from './components';
 
 import './App.css';
@@ -19,6 +19,7 @@ const App = () => (
     <CTA />
     {/* <Blog /> */}
     <Footer />
+    <Contact />
   </div>
 );
 

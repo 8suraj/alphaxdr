@@ -22,8 +22,8 @@ function Footer() {
         </div>
         <div className="gpt3__footer-links_div">
           <h4>Links</h4>
-          <p>LinkedIn</p>
-          <p>Facebook</p>
+          <p href="">LinkedIn</p>
+          <p href="">Facebook</p>
           {/* <p>Counters</p>
             <p>Contact</p> */}
         </div>
