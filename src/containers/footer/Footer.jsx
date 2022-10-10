@@ -4,7 +4,16 @@ import 'reactjs-popup/dist/index.css';
 import gpt3Logo from '../../assets/alpha.png';
 import './footer.css';
 // import { BrowserRouter } from 'react-router-dom';
+// import { Routes,Route,Outlet } from 'react-router-dom';
+// <Routes>
+//       <Route path='/' element={<Navigation/>} >
+//         <Route index element={<Home/>}/>
+//         <Route path='/shop' element={<Shop/>}/>
+          
 
+//       </Route>
+      
+//     </Routes>
 function Footer() {
   return (
 
