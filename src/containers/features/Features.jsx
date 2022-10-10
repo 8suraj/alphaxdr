@@ -15,13 +15,17 @@ const featuresData = [
     title: 'Automated Threat Hunting',
     text: 'Automated Threat Hunting: Cyber threat Hunting, "similar to real-world hunting," allows users to identify ongoing non-remediated or unknown threats within a cyber network.',
   },
-  // {
-  //   title: 'Advanced Incidence Response and Remediation',
-  //   text: "",
-  // },
+  {
+    title: 'Advanced Incidence Response and Remediation',
+    text: 'Advanced Incidence Response and Remediation: this feature allows users to prepare for a potential cyber threat by identifying, containing, and finally eradicating the menace. Remediation happens after the danger is eliminated.',
+  },
   {
     title: 'Cyber Threat Intelligence',
     text: "Cyber Threat Intelligence: this feature allows users to gather information from various sources and analyze the data to understand the current or potential cyber threats against an organization's network",
+  },
+  {
+    title: 'Machine Learning',
+    text: 'Text here',
   },
 ];
 

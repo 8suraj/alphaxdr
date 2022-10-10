@@ -9,10 +9,7 @@ import './footer.css';
 //       <Route path='/' element={<Navigation/>} >
 //         <Route index element={<Home/>}/>
 //         <Route path='/shop' element={<Shop/>}/>
-          
-
 //       </Route>
-      
 //     </Routes>
 function Footer() {
   return (
