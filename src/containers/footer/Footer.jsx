@@ -1,8 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 // import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
 import gpt3Logo from '../../assets/logo1.png';
 import './footer.css';
+
 // import { BrowserRouter } from 'react-router-dom';
 // import { Routes,Route,Outlet } from 'react-router-dom';
 // <Routes>
@@ -41,7 +43,11 @@ function Footer() {
           <h4>Company</h4>
           <p>Terms & Conditions </p>
           <p>Privacy Policy</p>
-          <p> <a href="#popup">Contact us </a></p>
+          <p>
+            <p>
+              <Link to="/contact">Contact Us</Link>
+            </p>
+          </p>
         </div>
         <div className="gpt3__footer-links_div">
           {/* <BrowserRouter>

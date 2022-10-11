@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
+import { Link } from 'react-router-dom';
 import logo from '../../assets/logo1.png';
 import './navbar.css';
 
@@ -17,7 +18,11 @@ const Navbar = () => {
           <p><a href="#wgpt3">What is XDR?</a></p>
           {/* <p><a href="#possibility">Open AI</a></p> */}
           <p><a href="#features">Features</a></p>
-          <p><a href="#blog">Contact Us</a></p>
+          <p>
+            <p>
+              <Link to="/contact">Contact Us</Link>
+            </p>
+          </p>
         </div>
       </div>
       {/* <div className="gpt3__navbar-sign">
@@ -35,7 +40,11 @@ const Navbar = () => {
             <p><a href="#wgpt3">What is XDR?</a></p>
             <p><a href="#possibility">Features</a></p>
             {/* <p><a href="#features">Case Studies</a></p> */}
-            <p><a href="#blog">Library</a></p>
+            <p>
+              <p>
+                <Link to="/contact">Contact Us</Link>
+              </p>
+            </p>
           </div>
           {/* <div className="gpt3__navbar-menu_container-links-sign">
             <p>Sign in</p>
