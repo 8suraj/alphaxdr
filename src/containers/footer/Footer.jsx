@@ -1,7 +1,7 @@
 import React from 'react';
 // import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
-import gpt3Logo from '../../assets/alpha.png';
+import gpt3Logo from '../../assets/logo1.png';
 import './footer.css';
 // import { BrowserRouter } from 'react-router-dom';
 // import { Routes,Route,Outlet } from 'react-router-dom';
@@ -24,7 +24,7 @@ function Footer() {
       <div className="gpt3__footer-links">
         <div className="gpt3__footer-links_logo">
           <img src={gpt3Logo} alt="gpt3_logo" />
-          <p>Team Karimganj, <br /> All Rights Reserved</p>
+          <p>Tech Karimganj, <br /> All Rights Reserved</p>
         </div>
         <div className="gpt3__footer-links_div">
           <h4>Links</h4>
@@ -50,7 +50,7 @@ function Footer() {
       </div>
 
       <div className="gpt3__footer-copyright">
-        <p>Team Karimganj All rights reserved.</p>
+        <p>Tech Karimganj All rights reserved.</p>
       </div>
       {/* <Button text="click" /> */}
     </div>
