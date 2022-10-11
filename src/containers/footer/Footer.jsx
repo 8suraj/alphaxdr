@@ -24,7 +24,7 @@ function Footer() {
       <div className="gpt3__footer-links">
         <div className="gpt3__footer-links_logo">
           <img src={gpt3Logo} alt="gpt3_logo" />
-          <p>Tech Karimganj, <br /> All Rights Reserved</p>
+          <p>Alpha XDR, <br /> All Rights Reserved</p>
         </div>
         <div className="gpt3__footer-links_div">
           <h4>Links</h4>
@@ -32,6 +32,8 @@ function Footer() {
           {/* <p><a href="https://www.linkedin.com/company/teamkarimganj/mycompany/">LinkedIn</a></p> */}
           <p><a href="https://www.linkedin.com/company/teamkarimganj/mycompany/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
           <p><a href="https://www.facebook.com/teamkarimganj" target="_blank" rel="noopener noreferrer">Facebook</a></p>
+          {/* <p><a href="https://twitter.com/TechKarimganj" target="_blank" rel="noopener noreferrer">Twitter</a></p> */}
+          {/* <p><a href="https://www.instagram.com/tech_karimganj/" target="_blank" rel="noopener noreferrer">Instagram</a></p> */}
           {/* <p>Counters</p>
             <p>Contact</p> */}
         </div>
@@ -45,7 +47,9 @@ function Footer() {
           {/* <BrowserRouter>
             <h4 href>Get in touch</h4>
           </BrowserRouter> */}
-          <p>Team Karimganj</p>
+          <p>Tech Karimganj</p>
+          <p><a href="tel:+913843356033">+91 3843356033</a></p>
+          <p><a href="https://goo.gl/maps/CfWDtVR1EjAf37DX9" target="_blank" rel="noopener noreferrer">SC Lane, Settlement Road, opposite of DRDA Office, Karimganj, Assam 788710</a></p>
           {/* <p>085-132567</p>
             <p>info@payme.net</p> */}
         </div>
