@@ -28,8 +28,10 @@ function Footer() {
         </div>
         <div className="gpt3__footer-links_div">
           <h4>Links</h4>
-          <p href="">LinkedIn</p>
-          <p href="">Facebook</p>
+          {/* <p href="https://www.linkedin.com/in/saurav-paul-0239221b9/">LinkedIn</p> */}
+          {/* <p><a href="https://www.linkedin.com/company/teamkarimganj/mycompany/">LinkedIn</a></p> */}
+          <p><a href="https://www.linkedin.com/company/teamkarimganj/mycompany/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+          <p><a href="https://www.facebook.com/teamkarimganj" target="_blank" rel="noopener noreferrer">Facebook</a></p>
           {/* <p>Counters</p>
             <p>Contact</p> */}
         </div>

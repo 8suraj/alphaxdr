@@ -25,7 +25,7 @@ const featuresData = [
   },
   {
     title: 'Machine Learning',
-    text: 'Text here',
+    text: 'This platform leverages custom use cases which are enriched using deep learning neural networks engine and Artificial Intelligence algorithms to correlate all the data sources and detect threats in a single pane of investigation.',
   },
 ];
 
