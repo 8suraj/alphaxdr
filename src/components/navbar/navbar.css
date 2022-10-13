@@ -2,13 +2,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: transparent;
+
     padding: 2rem 6rem;
-    position: absolute;
-    overflow: hidden;
 }
-
-
 
 .gpt3__navbar-links {
     flex: 1;

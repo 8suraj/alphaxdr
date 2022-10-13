@@ -6,8 +6,8 @@ import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Home from './router/home/home.components';
 import Navigation from './router/navigation/navigation.components';
-import { PageNotFound } from './components';
-
+import { Contact, PageNotFound } from './components';
+import { Policy, Terms } from './containers';
 // const App = () => (
 //   <div className="App">
 //     <div className="gradient__bg">
@@ -27,9 +27,9 @@ const App = () => (
     <Routes>
       <Route path="/" element={<Navigation />}>
         <Route index element={<Home />} />
-        {/* <Route path="/contactus" element={}/>
-        <Route path="/terms" element={}/>
-        <Route path="/privacy" element={}/> */}
+        <Route path="/contactus" element={<Contact />} />
+        <Route path="/terms" element={<Terms />} />
+        <Route path="/privacy" element={<Policy />} />
         <Route path="*" element={<PageNotFound />} />
       </Route>
     </Routes>

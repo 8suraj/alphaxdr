@@ -1,21 +1,19 @@
-
 .gpt3__header {
     display: flex;
     flex-direction: row;
+    background:-moz-radial-gradient(circle at 3% 20%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 26%);
 
-    background:-moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
-  
-    /* safari 5.1+,chrome 10+ */
-    background:-webkit-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
-  
-    /* opera 11.10+ */
-    background:-o-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
-  
-    /* ie 10+ */
-    background:-ms-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
-  
-    /* global 92%+ browsers support */
-    background:radial-gradient(circle at 1% 16%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+  /* safari 5.1+,chrome 10+ */
+  background:-webkit-radial-gradient(circle at 3% 20%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 26%);
+
+  /* opera 11.10+ */
+  background:-o-radial-gradient(circle at 3% 20%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 26%);
+
+  /* ie 10+ */
+  background:-ms-radial-gradient(circle at 3% 20%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 26%);
+
+  /* global 92%+ browsers support */
+  background:radial-gradient(circle at 3% 20%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 26%);
 }
 
 .gpt3__header-content {
