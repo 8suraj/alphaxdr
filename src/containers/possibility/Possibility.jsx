@@ -1,5 +1,5 @@
 import React from 'react';
-import possibilityImage from '../../assets/possibility.png';
+import possibilityImage from '../../assets/poss.png';
 import './possibility.css';
 
 const Possibility = () => (
@@ -8,7 +8,7 @@ const Possibility = () => (
       <img src={possibilityImage} alt="possibility" />
     </div>
     <div className="gpt3__possibility-content">
-      <h1 className="gradient__text">The possibilities are <br /> beyond your imagination</h1>
+      <h1 className="gradient__text">An Active Defence enabled <br /> Cybersecurity platform.</h1>
       <p>A scalable platform which will kill the traditional alert fatigue - SOC problem and will only notify validated cyber security breaches and incidents to its customers which is again bundled in an easy-to-deploy model and cost-effective solutions.</p>
     </div>
   </div>

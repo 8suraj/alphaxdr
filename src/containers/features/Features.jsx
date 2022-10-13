@@ -1,11 +1,12 @@
 import React from 'react';
 import Feature from '../../components/feature/Feature';
+import FeatureImage from '../../assets/ai_bg.png';
 import './features.css';
 
 const featuresData = [
   {
     title: 'Advance Network Protection and Response',
-    text: 'Advance Network Protection and Response: an attack surface reduction feature that prevents users from accessing suspicious and known malicious network addresses.',
+    text: 'Advance Network Protection and Response: An attack surface reduction feature that prevents users from accessing suspicious and known malicious network addresses.',
   },
   {
     title: 'Endpoint Detection and Response',
@@ -21,7 +22,7 @@ const featuresData = [
   },
   {
     title: 'Cyber Threat Intelligence',
-    text: "Cyber Threat Intelligence: this feature allows users to gather information from various sources and analyze the data to understand the current or potential cyber threats against an organization's network",
+    text: "Cyber Threat Intelligence: This feature allows users to gather information from various sources and analyze the data to understand the current or potential cyber threats against an organization's network",
   },
   {
     title: 'Machine Learning',
@@ -34,6 +35,7 @@ const Features = () => (
     <div className="gpt3__features-heading">
       <h1 className="gradient__text">The Future is Now and You Just Need to Realize It. Step into Future Today. & Make it Happen.</h1>
       {/* <p>Request Early Access to Get Started</p> */}
+      <img src={FeatureImage} alt="feature" width={500} height={500} />
     </div>
     <div className="gpt3__features-container">
       {featuresData.map((item, index) => (

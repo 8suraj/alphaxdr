@@ -14,12 +14,12 @@ function Footer() {
       <div className="gpt3__footer-links">
         <div className="gpt3__footer-links_logo">
           <Link to="/"><img src={gpt3Logo} alt="gpt3_logo" /></Link>
-          <p>Tech Karimganj, <br /> All Rights Reserved</p>
+          <p>AlphaXDR, <br /> All Rights Reserved</p>
         </div>
         <div className="gpt3__footer-links_div">
           <h4>Links</h4>
-          <p><a href="https://www.facebook.com/teamkarimganj">LinkedIn</a></p>
-          <p><a href="https://www.facebook.com/teamkarimganj">Facebook</a></p>
+          <p><a href="https://www.linkedin.com/company/teamkarimganj/mycompany/" target="_blannk">LinkedIn</a></p>
+          <p><a href="https://www.facebook.com/teamkarimganj" target="_blannk">Facebook</a></p>
         </div>
         <div className="gpt3__footer-links_div">
           <h4>Company</h4>
@@ -29,6 +29,8 @@ function Footer() {
         </div>
         <div className="gpt3__footer-links_div">
           <p>Team Karimganj</p>
+          <p><a href="tel:+913843356533">+91 3843356533</a></p>
+          <p><a href="https://goo.gl/maps/Gb664d15cqSNnmXD7" target="_blannk">📍 24.8689592,92.3484214</a></p>
         </div>
       </div>
 
