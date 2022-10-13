@@ -34,21 +34,5 @@ const App = () => (
       </Route>
     </Routes>
   </div>
-
-
 );
-  // <div className="App">
-  //   <div className="gradient__bg">
-  //     <Navbar />
-  //     <Header />
-  //   </div>
-  //   {/* <Brand /> */}
-  //   <WhatGPT3 />
-  //   <Features />
-  //   <Possibility />
-  //   <CTA />
-  //   {/* <Blog /> */}
-  //   <Footer />
-  //   <Contact />
-  // </div>
 export default App;
