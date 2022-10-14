@@ -7,7 +7,7 @@ const Header = () => (
   <div className="gpt3__header section__padding " id="home">
     <div className="gpt3__header-content">
       <h1 className="gradient__text"> Welcome to Alpha XDR </h1>
-      <p>Team Karimganj is glad to announce the launch of its new XDR Cybersecurity Platform. A platform which is built on multi-vector threats detection, 24X7 monitoring, threat hunting and speed of light mitigation & response.</p>
+      <p>Tech Karimganj is glad to announce the launch of its new XDR Cybersecurity Platform. A platform which is built on multi-vector threats detection, 24X7 monitoring, threat hunting and speed of light mitigation & response.</p>
 
       {/* <div className="gpt3__header-content__input">
         <input type="email" placeholder="Your Email Address" />

@@ -20,7 +20,7 @@ const WhatGPT3 = () => (
       <Feature title="Incidence Response" text="The incident response process entails identifying an attack, determining its severity and prioritising it, investigating and mitigating the attack, restoring operations, and taking preventative measures to ensure it does not happen again." />
       <Feature title="NDR" text="NDR helps to detect patterns and anomalies in network traffic, allowing them to detect suspicious or malicious traffic. NDR security solutions monitor network traffic and extract patterns that can indicate anomalous or suspicious connections." />
       <Feature title="EDR" text="EDR is a layered, integrated solution to endpoint security that combines rule-based automated response with real-time continuous monitoring and endpoint data analytics." />
-      <Feature title="Privileged Escalation" text="ITDR software finds vulnerabilities and dangers connected to identity, including misuse and abuse of credentials, unauthorised entitlements and privilege escalations, and other identity-related threats." />
+      <Feature title="Advanced Threat Hunting" text="Adversaries build evasion techniques into their exploits and malware to work around or disable traditional security tools. Automated threat hunting detects polymorphic malwares and customized attack launched by advanced threat actors." />
     </div>
   </div>
 );
