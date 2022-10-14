@@ -2,8 +2,8 @@ import React from 'react';
 import './terms.css';
 
 const Terms = () => (
-  <div className="gpt3__possibility section__padding" id="possibility">
-    <div className="gpt3__possibility-content">
+  <div className="alpha__possibility section__padding" id="possibility">
+    <div className="alpha__possibility-content">
       <h1 className="gradient__text">Terms & condition </h1>
       <p>Welcome to alphaxdr.com</p>
       <p>These Terms of Use define the rules and regulations for using the AlphaXDR website (alphaxdr.com). By using this website, we assume you accept these Terms and Conditions in its entirety. If you disagree with these terms and conditions, you must not use this website.</p>

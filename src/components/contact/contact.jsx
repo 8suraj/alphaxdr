@@ -1,9 +1,9 @@
+/* eslint-disable no-unused-vars */
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import './contact.css';
 import validator from 'validator';
 import Popup from '../popup/popup';
-// npm i @emailjs/browser
 
 const Contact = () => {
   const form = useRef();
@@ -28,6 +28,7 @@ const Contact = () => {
   };
   const handleChangeEmail = (event) => {
     setTextInputEmail(event.target.value);
+    validateEmail(textInputEmail);
   };
   const handleChangeSubject = (event) => {
     setTextInputSubject(event.target.value);
@@ -45,15 +46,10 @@ const Contact = () => {
       alert('Please Enter The Subject');
       return;
     }
-    if (!textInputEmail.trim()) {
-      alert('Please Enter Your Correct Email');
-      return;
-    }
     if (!textInputMessage.trim()) {
       alert('Please Enter The Message');
       return;
     }
-    validateEmail(textInputEmail);
     if (!emailError) {
       alert('Please Enter Email correctly.');
       return;
@@ -72,11 +68,9 @@ const Contact = () => {
       )
       .then(
         (result) => {
-          console.log(result);
           setMessage('Thank You For Contacting Us.We will get back to you.');
         },
         (error) => {
-          console.log(error);
           setMessage('Failed!Please try again...');
         },
       );
@@ -145,59 +139,3 @@ const Contact = () => {
 };
 
 export default Contact;
-
-// Styles
-// const StyledContactForm = styled.div`
-//   width: 400px;
-
-//   form {
-//     display: flex;
-//     align-items: flex-start;
-//     flex-direction: column;
-//     width: 100%;
-//     font-size: 16px;
-
-//     input {
-//       width: 100%;
-//       height: 35px;
-//       padding: 7px;
-//       outline: black solid 1px;
-//       border-radius: 5px;
-//       border: 1px solid rgb(220, 220, 220);
-
-//       &:focus {
-//         border: 2px solid rgba(0, 206, 158, 1);
-//         outline: none;
-//       }
-//     }
-
-//     textarea {
-//       max-width: 100%;
-//       min-width: 100%;
-//       width: 100%;
-//       max-height: 100px;
-//       min-height: 100px;
-//       padding: 7px;
-//       outline: black solid 1px;
-//       border-radius: 5px;
-//       border: 1px solid rgb(220, 220, 220);
-
-//       &:focus {
-//         outline: none;
-//         border: 2px solid rgba(0, 206, 158, 1);
-//       }
-//     }
-
-//     label {
-//       margin-top: 1rem;
-//     }
-
-//     input[type="submit"] {
-//       margin-top: 2rem;
-//       cursor: pointer;
-//       background: rgb(249, 105, 14);
-//       color: white;
-//       border: none;
-//     }
-//   }
-// `;

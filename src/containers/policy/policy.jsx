@@ -2,8 +2,8 @@ import React from 'react';
 import './policy.css';
 
 const Policy = () => (
-  <div className="gpt3__possibility section__padding" id="possibility">
-    <div className="gpt3__possibility-content">
+  <div className="alpha__possibility section__padding" id="possibility">
+    <div className="alpha__possibility-content">
       <h1 className="gradient__text">Privacy Policy</h1>
       <h1 className="gradient__text">About this policy</h1>
       <p>Your privacy is important to us, and we are committed to protect your privacy. We believe it is important for you to know what personal data we at Tech Karimganj (“TK” or “we”) collect from you, why we collect it, how we use it and what rights you might be entitled to as a data subject or consumer.</p>
